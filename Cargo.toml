@@ -1,0 +1,12 @@
+[package]
+name = "attack_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
+sysinfo = "0.29"
+serde_json = "1.0"
+socket2 = "0.5"
